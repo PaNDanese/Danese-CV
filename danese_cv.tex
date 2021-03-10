@@ -1,0 +1,495 @@
+% -- Encoding UTF-8 without BOM
+% -- XeLaTeX => PDF (BIBER)
+
+\documentclass[tikz,border=20pt]{cv-style}        
+\usepackage{textgreek}
+\usepackage{fontspec}
+\setmainfont{Scala Pro}[Numbers={Proportional,Lining}]
+\setsansfont[Numbers={Proportional,Lining}]{Scala Sans OT}
+\newfontfamily{\lighty}{Scala Sans OT Light}
+\newcommand{\italica}[1]{%
+	{\color{gray} \textit{#1}}%
+}
+%\usepackage{relsize}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+%\usepackage{arev}
+%\usepackage{fdsymbol}
+\pagestyle{fancy}
+\usepackage[object=vectorian]{pgfornament}
+\fancyhf{} % sets both header and footer to nothing
+\renewcommand{\headrulewidth}{0pt}
+\rfoot{\sffamily Page \thepage{}  of \pageref{LastPage}}
+%\usepackage{pifont}
+%\DeclareFontFamily{U}{WebOMintsGD}{}
+%\DeclareFontShape{U}{WebOMintsGD}{m}{n}{<-> WebOMintsGD}{}
+%\usepackage{skak}
+
+% \sethyphenation[variant=british]{english}{} % Add words between the {} to avoid them to be cut 
+
+%\documentclass[tikz, border=20pt]{standalone}
+\usetikzlibrary{decorations, decorations.text,}
+
+\begin{document}
+
+\header{Paul Nicola }{Danese}           % Your name
+% \lastupdated
+%---------------------------------------------------------------
+%	SIDEBAR SECTION  -- In the aside, each new line forces a line break
+%-----------------------------------------------------------------------
+
+\begin{aside}
+%
+\section{Contact}
+93 Lincoln Drive
+Glastonbury, CT USA 
+06033-3066
+~
++1.860.368.0332
+~
+\href{mailto:pdanese@goodwin.edu}{pdanese@goodwin.edu}
+\href{mailto:pdanese@fdable.com}{pdanese@fdable.com}
+%
+%
+\end{aside}
+
+
+%--------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%--------------------------------------------------------------------------------
+
+\section{Work History}
+
+\begin{entrylist}
+%------------------------------------------------
+% GOODWIN
+%-------------------------------------------------
+\simpleentryheader{2011\textendash}{\href{www.goodwin.edu}{Goodwin University}, School of Nursing \& Health Professions}
+\simpleentry{2014\textendash}{Associate Professor}
+\simpleentry{2012\textendash 2014}{Assistant Professor}
+\simpleentry{2011\textendash 2012}{Adjunct Instructor}
+\simpleentry{}{}
+
+
+  
+%------------------------------------------------
+% CCC Capital
+%-------------------------------------------------
+\simpleentryheader{2011\textendash 2019}
+  {\href{www.capitalcc.edu}{Capital Community College}, Department of Science \& Mathematics}
+\simpleentry{}{Adjunct Instructor}
+\simpleentry{}{}
+  
+  
+  
+%------------------------------------------------
+% EASTERN CT
+%-------------------------------------------------
+\simpleentryheader{2011\textendash 2012}
+  {\href{http://www.easternct.edu/biology/}{Eastern Connecticut State University}, Department of Biology}
+\simpleentry{}{Adjunct Instructor}
+\simpleentry{}{}
+  
+  
+  
+%------------------------------------------------
+% FDAble
+%------------------------------------------------
+\simpleentryheader{2009\textendash}{\href{www.fdable.com}{FDAble}}
+\simpleentry{}{Founder}
+\simpleentry{}{}
+
+
+
+%------------------------------------------------
+% RIB-X
+%------------------------------------------------
+\simpleentryheader{2002\textendash 2009}
+  {\href{https://melinta.com/}{Melinta Pharmaceuticals} (formerly Rib-X Pharmaceuticals)}
+\simpleentry{2005\textendash 2009}
+  {Research Scientist II}
+\simpleentry{2002\textendash 2005}
+  {Research Scientist}
+\simpleentry{}{}
+  
+
+
+%------------------------------------------------
+% MICROBIA
+%------------------------------------------------
+\simpleentryheader{2000\textendash 2002}
+  {\href{www.ironwoodpharma.com}{Ironwood Pharmaceuticals} (formerly Microbia)}
+\simpleentry{{2002}}{Program Manager}
+\simpleentry{{2000\textendash 2002}}{Team Leader}
+\simpleentry{2000}{Senior Scientist}
+\simpleentry{}{}
+
+
+
+%------------------------------------------------
+% HARVARD MED
+%------------------------------------------------
+\simpleentryheader{1999\textendash 2000}
+  {\href{http://micro.med.harvard.edu/}{Harvard Medical School}, Department of Microbiology \& Molecular Genetics}
+\simpleentry{}{Postdoctoral Fellow}
+\simpleentry{}{}
+
+
+
+%------------------------------------------------
+% HARVARD MCB
+%------------------------------------------------
+\simpleentryheader{1996\textendash 1999}
+  {\href{https://www.mcb.harvard.edu/}{Harvard University}, Department of Molecular \& Cellular Biology}
+\simpleentry{}{Postdoctoral Fellow}
+\simpleentry{}{}
+
+
+\end{entrylist}
+%------------------------------------------------
+% END OF WORK HISTORY
+% END OF WORK HISTORY
+% END OF WORK HISTORY
+%------------------------------------------------
+
+
+%---------------------------------------------------------------------
+%	EDUCATION SECTION
+%	EDUCATION SECTION
+%	EDUCATION SECTION
+%	EDUCATION SECTION
+%---------------------------------------------------------------------
+\section{Education}
+
+\begin{entrylist}
+
+%---------------------------------------------------------------------
+%	PRINCETON
+%---------------------------------------------------------------------
+\simpleentryheader{1990\textendash 1996}{\coloredhref{orange}{https://molbio.princeton.edu/}{Princeton University}, Department of Molecular Biology}
+\simpleentry{1996}{Doctor of Philosophy. Thesis Advisor: Thomas J. Silhavy}
+\simpleentry{1992}{Master of Arts. Thesis Advisor: Thomas J. Silhavy}
+\simpleentry{}{}
+
+
+%---------------------------------------------------------------------
+%	UMASS
+%---------------------------------------------------------------------
+\simpleentryheader{1986\textendash 1990}
+{\coloredhref{orange}{https://www.umass.edu/biochem/}{University of Massachusetts, Amherst}, Department of Biochemistry}
+\simpleentry{1990}{Bachelor of Science. Thesis Advisor: Thomas L. Mason}
+\simpleentry{}{}
+
+%------------------------------------------------
+\end{entrylist}
+%---------------------------------------------------------------------
+%	END EDUCATION SECTION
+%	END EDUCATION SECTION
+%	END EDUCATION SECTION
+%---------------------------------------------------------------------
+
+
+
+\pagebreak{}
+\header{Danese}{}           % Your name
+%---------------------------------------------------------------------
+%	TEACHING EXPERIENCE
+%	TEACHING EXPERIENCE
+%	TEACHING EXPERIENCE
+%---------------------------------------------------------------------
+
+\section{Teaching Experience}
+\begin{entrylist}
+
+%---------------------------------------------------------------------
+%	GOODWIN TEACHING
+%---------------------------------------------------------------------
+\simpleentryheader{2011\textendash}{Goodwin College}
+\simpleentry{2018\textendash}{Chemistry 110 (General Chemistry I)}
+\simpleentry{2018\textendash}{Chemistry 111 (General Chemistry II)}
+\simpleentry{2016}{Chemistry 101 (Introductory Chemistry), hybrid}
+\simpleentry{2013\textendash}{Chemistry 101 (Introductory Chemistry), on-line}
+\simpleentry{2011\textendash}{Chemistry 101 (Introductory Chemistry)}
+\simpleentry{}{}
+
+
+%-----------------------------------------------------------------
+%	CCC TEACHING
+%---------------------------------------------------------------------
+\simpleentryheader{2011\textendash}{Capital Community College}
+\simpleentry{2016\textendash}{Chemistry 122 (General Chemistry II)}
+\simpleentry{2016\textendash}{Chemistry 121 (General Chemistry I}
+\simpleentry{2014\textendash 2016}{Biology 235 (Microbiology)}
+\simpleentry{2012\textendash 2015}{Chemistry 111 (Concepts in Chemistry)}
+\simpleentry{2012\textendash 2015}{Biology 121 (General Biology)}
+\simpleentry{2011\textendash 2012}{Biology 105 (Introductory Biology)}
+\simpleentry{}{}
+
+
+%-----------------------------------------------------------------
+%	EASTERN CT TEACHING
+%---------------------------------------------------------------------
+\simpleentryheader{2011\textendash 2012}{Eastern Connecticut State University}
+\simpleentry{}{Genetics \& Society Laboratory}
+\simpleentry{}{}
+
+
+%-----------------------------------------------------------------
+%	COURSERA TEACHING
+%------------------------------------------------------------
+\simpleentryheader{2014\textendash 2015}{\coloredhref{aquamarine}{https://www.coursera.org/}{Coursera}}
+\simpleentry{2014}{Invited teaching assistant for \coloredhref{darkeraqua}{https://www.coursera.org/learn/datavisualization}{Data Visualization}}
+\simpleentry{2014}{Invited teaching assistant for \coloredhref{darkeraqua}{https://www.coursera.org/learn/statistical-inference}{Statistical Inference}}
+\simpleentry{2014}{Invited teaching assistant for \coloredhref{darkeraqua}{https://www.coursera.org/learn/practical-machine-learning}{Practical Machine Learning}}
+\simpleentry{}{}
+
+
+
+%-----------------------------------------------------------------
+%	HMS TEACHING
+%------------------------------------------------------------
+\simpleentryheader{1999\textendash 2000 \hfill}{Harvard Medical School}
+\simpleentry{2000}{Guest Lecturer, Graduate course in Molecular Genetics}
+\simpleentry{1999}{Mentor for one graduate rotation student}
+\simpleentry{1999}{Teaching Assistant, Medical Microbiology Laboratory}
+\simpleentry{}{}
+
+
+%-----------------------------------------------------------------
+%	HARVARD MCB TEACHING
+%------------------------------------------------------------
+\simpleentryheader{1997\textendash 1998}{Harvard University}
+\simpleentry{1998}{Teaching Assistant, Introductory Biochemistry}
+\simpleentry{1997}{Mentor for two undergraduate research assistants}
+\simpleentry{}{}
+
+
+%-----------------------------------------------------------------
+%	PRINCETON TEACHING
+%------------------------------------------------------------
+\simpleentryheader{1991\textendash 1996}{Princeton University}
+\simpleentry{1992\textendash 1996}{Mentor for two undergraduates conducting thesis research}
+\simpleentry{1992\textendash 1996}{Mentor for three graduate rotation students}
+\simpleentry{1991}{Teaching Assistant for MOL345, (Introductory Biochemistry)}
+\simpleentry{1991}{Teaching Assistant for MOL212, (Introductory Molecular Biology)}
+\simpleentry{}{}
+
+
+\end{entrylist}
+%-----------------------------------------------------------------
+%	END TEACHING
+%	END TEACHING
+%	END TEACHING
+%------------------------------------------------------------
+
+
+%----------------------------------------
+% AWARDS
+%----------------------------------------
+
+\section{Awards}
+
+\begin{entrylist}
+
+%----------------------------------------
+% DAMON RUNYON
+%----------------------------------------
+\simpleentryheader{1997\textendash 2000}{\coloredhref{purple}{https://www.damonrunyon.org/}{Cancer Research Fund of the Damon Runyon\textendash Walter Winchell Foundation}}
+\simpleentry{}{Postdoctoral Fellowship}
+\simpleentry{}{}
+
+
+
+%----------------------------------------
+% PRINCETON GRAD SCHOLARSHIP
+%----------------------------------------
+\simpleentryheader{1990\textendash 1991}{Princeton University}
+\simpleentry{}{Graduate Scholarship Award}
+\simpleentry{}{}
+
+
+%----------------------------------------
+% UMASS AWARDS
+%----------------------------------------
+\simpleentryheader{1986\textendash 1990}{University of Massachusetts, Amherst}
+\simpleentry{1990}{Inducted, \textPhi BK Honor Society}
+\simpleentry{1990}{Henry Little Award}
+\simpleentry{}{\italica{Awarded to highest-ranked senior in the Department of Biochemistry}}
+\simpleentry{1986\textendash 1990}{Chancellor's Talent Award Scholarship}
+\simpleentry{}{\italica{Tuition waiver based on academic performance}}
+\simpleentry{}{}
+
+
+\end{entrylist}
+
+
+\pagebreak{}
+\header{Danese}{}           % Your name
+%------------------------------------------------------------------------
+%	PUBLICATIONS
+%	PUBLICATIONS
+%	PUBLICATIONS
+%----------------------------------------------------------------------
+\section{Peer-Reviewed Research}
+
+\begin{entrylist}
+\simpleentry{2021}{Danese, PN. Search and Analysis of the Food and Drug Administration’s (FDA) Adverse Event Reporting System (FAERS). in \textbf{O'Donnell's Drug Injury} 5th edition. James T O’Donnell, editor.}
+\simpleentry{}{}
+
+
+\simpleentry{2017}{Tayek, JA, Danese PNN, and Smith MS. Safety of Degludec versus Glargine in Type 2 Diabetes. \italica{New England Journal of Medicine}, \textbf{377}: 1994\textendash{}1996.}
+\simpleentry{}{}
+
+\simpleentry{2016}{Danese, PN. Search and Analysis of the Food and Drug Administration’s (FDA) Adverse Event Reporting System (FAERS). in \textbf{O'Donnell's Drug Injury} 4th edition. James T O’Donnell, editor.}
+\simpleentry{}{}
+
+
+\simpleentry{2014}{O’Donnell, JT, Marks, DH, Danese P, and JJ O’Donnell. Drug-Induced Liver Disease: Primer for the Primary Care Physician. \italica{Disease-a-Month}, \textbf{60}: 55\textendash{}104.}
+\simpleentry{}{}
+
+\simpleentry{2012}{Danese, PN. Search and Analysis of the Food and Drug Administration’s Adverse Event Reporting System. p 195\textendash{}204, in \textbf{Drug Injury: Liability Analysis \& Prevention} 3rd edition. James T. O’Donnell, editor.}
+\simpleentry{}{}
+
+\simpleentry{2012}{Somberg, JC, McEwen, P, Basu, S, Danese, PN, and J Molnar. Medical Device Recalls in the US.  \italica{Circulation}: \textbf{126}: A11403.}
+\simpleentry{}{}
+
+\simpleentry{2009}{Pratt, LA and P Danese. More Eyeballs on AERS. \italica{Nature Biotechnology}, \textbf{27}: 601\textendash{}602.}
+\simpleentry{}{}
+
+\simpleentry{2008}{Lawrence, L, Danese P, DeVito, J, Franceschi, F, and J Sutcliffe. \italica{In vitro} activities of the R\textchi-01 oxazolidinones against hospital and community pathogens. \italica{Antimicrobial Agents and Chemotherapy}, \textbf{52}: 1653\textendash{}1662.}
+\simpleentry{}{}
+
+\simpleentry{2002}{Danese, PN. Antibiofilm approaches: prevention of catheter colonization. \italica{Chemistry and Biology}, \textbf{9}: 873\textendash{}880.}
+\simpleentry{}{}
+
+\simpleentry{2001}{Danese, PN, Pratt, LA, and R Kolter. Biofilm formation as a developmental process. \italica{Methods in Enzymology}, \textbf{336}: 19\textendash{}26.}
+\simpleentry{}{}
+
+
+\simpleentry{2000}{Danese, PN, Pratt, LA, Dove, S, and R Kolter. The outer-membrane protein, Ag43, mediates cell-to-cell interactions within \italica{E. coli} biofilms. \italica{Molecular Microbiology}, \textbf{37}: 424\textendash{}432.}
+\simpleentry{}{}
+
+\simpleentry{2000}{Danese, PN, Pratt, LA, and R Kolter. Exopolysaccharide production is required for development \italica{Escherichia coli} K-12 biofilm architecture. \italica{Journal of Bacteriology}, \textbf{182}: 3593\textendash{}3596.}
+\simpleentry{}{}
+
+\simpleentry{1999}{Samuel, ADT, Pitta TP, Ryu, WS, Danese PN, Leung ECW, and HC Berg. 1999. Flagellar determinants of bacterial sensitivity to \textchi-phage. \italica{Proceedings of the National Academy of Sciences, USA}, \textbf{96}: 9863\textendash{}9866.}
+\simpleentry{}{}
+
+\simpleentry{1998}{Danese, PN, Oliver, GR, Barr, K, Bowman GD, Rick, PD, and TJ Silhavy. Accumulation of the Enterobacterial Common Antigen Lipid II Biosynthetic Intermediate Stimulates \italica{degP} Transcription in \italica{Escherichia coli}. \italica{Journal of Bacteriology}, \textbf{180}: 5875\textendash{}5884.}
+\simpleentry{}{}
+
+\simpleentry{1998}{Danese, PN, and TJ Silhavy. Targeting and Assembly of Periplasmic and Outer-membrane Proteins in \italica{Escherichia coli}. \italica{Annual Review of Genetics}, \textbf{32}: 59\textendash{}94.}
+\simpleentry{}{}
+
+\simpleentry{1998}{Danese, PN, and TJ Silhavy. CpxP, a Stress-combative Member of the Cpx Regulon in \italica{Escherichia coli}. \italica{Journal of Bacteriology}, \textbf{180}: 831\textendash{}839.}
+\simpleentry{}{}
+
+
+\end{entrylist}
+
+\pagebreak{}
+\header{Danese}{}           % Your name
+\section{Peer-Reviewed Research Continued}
+
+\begin{entrylist}
+
+\simpleentry{1997}{Jones, CH, Danese, PN, Pinkner, JS, Silhavy TJ, and SJ Hultgren. The Chaperone-assisted Membrane Release and Folding Pathway is Sensed by Two Signal Transduction Systems. \italica{EMBO Journal}, \textbf{16}: 6394\textendash{}6406.}
+\simpleentry{}{}
+
+\simpleentry{1997}{Danese, PN and TJ Silhavy. 1997. The \textsigma-E and the Cpx Signal Transduction Systems Control the Synthesis of Periplasmic Protein-Folding Enzymes in \italica{Escherichia coli}. \italica{Genes \& Development}, \textbf{11}: 1183\textendash{}1193.}
+\simpleentry{}{}
+
+\simpleentry{1995}{Danese, PN, Snyder, WB, Cosma CL, Davis LJB, and TJ Silhavy. The Cpx Two-component Signal Transduction Pathway of \italica{Escherichia coli} Regulates Transcription of the Gene Specifying the Stress-inducible Periplasmic Protease, DegP. \italica{Genes \& Development}, \textbf{9}: 387\textendash{}398.}
+\simpleentry{}{}
+
+\simpleentry{1995}{Danese, PN, Murphy, CK, and TJ Silhavy. Multicopy Suppression of Cold-sensitive \italica{sec} Mutations in \italica{Escherichia coli}. \italica{Journal of Bacteriology}, \textbf{177}: 4969\textendash{}4973.}
+\simpleentry{}{}
+
+\simpleentry{1995}{Snyder, WB, Davis, LBJ, Danese PN, Cosma CL, and TJ Silhavy. Overproduction of NlpE, a New Outer-membrane Lipoprotein, Suppresses the Toxicity of Periplasmic LacZ by Activation of the Cpx Signal Transduction Pathway. \italica{Journal of Bacteriology}, \textbf{177}: 4216\textendash{}4223.}
+\simpleentry{}{}
+
+\simpleentry{1995}{Cosma, CL, Danese PN, Carlson, JH, Silhavy TJ, and WB Snyder. Activation of the Cpx Two-component Signal Transduction Pathway in \italica{Escherichia coli} Suppresses Envelope Associated Stresses. \italica{Molecular Microbiology}, \textbf{18}: 491\textendash{}505.}
+\simpleentry{}{}
+
+\simpleentry{1993}{Leonhardt, SA, Fearon, K, Danese, PN, and TL Mason. 1993. \italica{HSP78} Encodes a Yeast Mitochondrial Heat Shock Protein in the Clp Family of ATP-dependent Proteases. \italica{Molecular and Cellular Biology}, \textbf{13}: 6304\textendash{}6314.}
+\simpleentry{}{}
+\end{entrylist}
+
+
+%---------------------------------------------------------------
+%	SKILLS
+%	SKILLS
+%	SKILLS
+%------------------------------------------------------------------------
+\section{Computer Skills}
+
+\begin{entrylist}
+%------------------------------------------------
+\simpleentryheader{}{General Purpose Programming Languages}
+\simpleentry{}{Python, Java,  Ruby, VBScript}
+\simpleentry{}{}
+
+\simpleentryheader{}{Machine Learning / Scientific Programming}
+\simpleentry{}{ChemAxon Marvin, OpenBabel, R, Scikit-Learn, SciPy}
+\simpleentry{}{}
+
+\simpleentryheader{}{Relational Databases}
+\simpleentry{}{MySQL, Oracle, SQLite}
+\simpleentry{}{}
+
+\simpleentryheader{}{Office Productivity \& Publishing}
+\simpleentry{}{\textcolor{red}{☛} \LaTeX, Microsoft Office, PowerBI, VBA}
+\simpleentry{}{}
+
+\simpleentryheader{}{Web Development}
+\simpleentry{}{CSS, HTML, Javascript, Lucene,  Ruby on Rails, Solr}
+\simpleentry{}{}
+
+
+
+
+
+%------------------------------------------------
+%------------------------------------------------
+
+\end{entrylist}
+%--------------------------------------------------------------------
+%	Hobby SECTION
+%	Hobby SECTION
+%	Hobby SECTION
+%-----------------------------------------------------------
+\section{Hobbies}
+ 
+\begin{tikzpicture}[remember picture, overlay]
+\tikzset{curveinscope/.style={every path/.style={text=red}}}
+   \path [decorate,decoration={text along path,
+        text={  
+            |\color{blue}\raisebox{-0.0em}{☛}| 
+            |\color{gray}|Chess %
+            |\textperiodcentered| %
+            ||%
+            |\color{gray}|Digital Photography % 
+            |\textperiodcentered| %
+            ||%
+            |\color{gray}|Digital Typography %
+            |\textperiodcentered| %
+            ||%
+            |\color{gray}|Piano % 
+            |\color{blue}|☚
+  }}]
+        (3.1,1) arc [start angle=-146.5,end angle=80,radius=4.79];
+    \end{tikzpicture}
+
+
+% \begin{entrylist}
+% \simpleentry{}{Chess}
+% \simpleentry{}{Digital Photography}
+
+% %------------------------------------------------
+% %------------------------------------------------
+
+% \end{entrylist}
+
+
+
+\end{document}
